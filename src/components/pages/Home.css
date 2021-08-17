@@ -51,6 +51,11 @@
     font-size: 2rem;
 }
 
+.main{
+    height: 100vh;
+    width: 100%
+}
+
 @media (max-width: 600px) {
     .card {
         grid-column: span 2;
@@ -68,8 +73,11 @@
         grid-row: 2 / 3;
     }
     .layout {
-        transform: translate(0, -50%);
-        top: 0;
+        transform: translate(-50%, 0);
+        top: 10vh;
         left: 50%;
+    }
+    .main{
+        height: 100%;
     }
 }
