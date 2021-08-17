@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 * {
     font-family: Quicksand;
+
 }
 
 /* Font-colors */
@@ -46,7 +47,8 @@
 }
 
 .center-container{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
+
