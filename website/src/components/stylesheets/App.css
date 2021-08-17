@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+* {
+    font-family: Quicksand;
+}
+
+/* Font-colors */
+.gray {
+    color: #363636;
+}
+
+.dark-blue {
+    color: #242F40;
+}
+
+.yellow {
+    color: #CCA43B;
+}
+
+.dark-white {
+    color: #E5E5E5;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+/* Background colors */
+.bg-gray {
+    background-color: #363636;
+}
+
+.bg-dark-blue {
+    background-color: #242F40;
+}
+
+.bg-yellow {
+    background-color: #CCA43B;
+}
+
+.bg-dark-white {
+    background-color: #E5E5E5;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
